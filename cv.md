@@ -1,10 +1,8 @@
-![Фотография](</images/download%20(8).png>)
+![Фотография](/images/user.jpg)
 
 # **Anna Sergeeva**
 
 ### Junior Frontend Developer
-
----
 
 ## **Contacts**
 
@@ -16,13 +14,9 @@
 
 ### **Discord:** Anna Sergeeva (@anariel01)
 
----
-
 ## **About me**
 
 ### I am an aspiring frontend developer with a passion for creating user-friendly and beautiful user interfaces. I'm learning on my own, constantly improving my skills and taking different courses to master this profession. At the moment I already have basic knowledge of HTML, CSS, JavaScript, Git and React. Now I want to practice on real tasks and get experience of working in a team, it will help me to grow faster as a frontend developer, build professional skills and feel more confident in solving complex tasks.
-
----
 
 ## **Skills**
 
@@ -35,8 +29,6 @@
 ### \*React JS (Redux / Router)
 
 ### \* Git, GitHub
-
----
 
 ## **Code example**
 
@@ -54,15 +46,13 @@ function hello(name) {
 }
 ```
 
----
-
 ## **Experience and projects**
 
 ### **Todo List**
 
 #### Technologies and React concepts used: React, JSX, props, useState, component composition, conditional rendering, array methods (map, filter), event handling.
 
-https://task-list-seven-lemon.vercel.app/
+[View the project](https://task-list-seven-lemon.vercel.app/)
 
 ---
 
@@ -70,7 +60,7 @@ https://task-list-seven-lemon.vercel.app/
 
 #### Technologies used: React, JSX, CSS Modules, JavaScript (useState, events handling).
 
-https://calculator-umber-chi.vercel.app/
+[View the project](https://calculator-umber-chi.vercel.app/)
 
 ---
 
@@ -78,7 +68,7 @@ https://calculator-umber-chi.vercel.app/
 
 #### Technologies and React concepts used: React, JSX, props, useState, component composition, conditional rendering, API.
 
-https://weather-wiget-one.vercel.app/
+[View the project](https://weather-wiget-one.vercel.app/)
 
 ---
 
@@ -86,7 +76,7 @@ https://weather-wiget-one.vercel.app/
 
 #### Technologies used: React, JSX, Conditional Rendering, CSS Modules.
 
-https://vite-project-plum-nine.vercel.app/
+[View the project](https://vite-project-plum-nine.vercel.app/)
 
 ---
 
@@ -94,9 +84,7 @@ https://vite-project-plum-nine.vercel.app/
 
 #### Technologies and React concepts used: React, JSX, props, useState, component composition, conditional rendering.
 
-https://match-the-pictures.vercel.app/
-
----
+[View the project](https://match-the-pictures.vercel.app/)
 
 ## **Education and courses**
 
@@ -108,12 +96,10 @@ https://match-the-pictures.vercel.app/
 
 ### \*Fundamental JavaScript, _[Udemy](https://www.udemy.com/course/fundamental-javascript/?couponCode=KEEPLEARNING) 2025_
 
----
-
 ## **Languages**
 
 ### \*Russian - _native_
 
 ### \*English - _B1_
 
-![English](/images/photo_5416010750633309183_x.jpg)
+![English](/images/english.jpg)
