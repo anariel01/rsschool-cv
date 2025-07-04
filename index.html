@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./assets/img/favicon.ico" />
     <link href="https://unpkg.com/prismjs/themes/prism.css" rel="stylesheet" />
     <script src="https://unpkg.com/prismjs/prism.js"></script>
@@ -28,11 +34,11 @@
       </div>
     </header>
     <main>
-      <div class="container">
+      <div class="container main-container">
+        <img class="photo" src="./assets/img/user.jpg" alt="My photo" />
         <section class="section" id="profile">
-          <img class="photo" src="./assets/img/user.jpg" alt="My photo" />
           <h1 class="section-title">Anna Sergeeva</h1>
-          <p>Junior Frontend Developer</p>
+          <p class="">Junior Frontend Developer</p>
         </section>
 
         <section class="section" id="contacts">
@@ -79,11 +85,11 @@
             a first capital letter (Xxxx).
           </p>
           <pre class="my-code"><code class="language-javascript">         
-          function hello(name) {
-            if (!name) return "Hello, World!"; 
-            const a = name.slice(0, 1).toUpperCase() + name.slice(1).toLowerCase(); 
-            return `Hello, ${a}!`; 
-          }</code></pre>
+ function hello(name) {
+   if (!name) return "Hello, World!"; 
+   const a = name.slice(0, 1).toUpperCase() + name.slice(1).toLowerCase(); 
+   return `Hello, ${a}!`; 
+  }</code></pre>
         </section>
         <section class="section" id="projects">
           <h2 class="section-title">Projects</h2>
@@ -104,7 +110,7 @@
             </li>
             <li class="projects-item">
               <a href="https://match-the-pictures.vercel.app/"
-                >Match the pictures" mini-game</a
+                >"Match the pictures" mini-game</a
               >
             </li>
           </ul>
@@ -115,21 +121,22 @@
             <li class="education-item">Irkutsk State University, 2023</li>
             <li class="education-item">
               HTML,CSS and JavaScript theory and simulators,
-              <a href="https://htmlacademy.ru">HTML Academy</a> 2025
+              <a href="https://htmlacademy.ru"><span>HTML Academy</span></a>
+              2025
             </li>
             <li class="education-item">
               Complete course on React JS (Redux / Router / Tailwind CSS),
               <a
                 href="https://www.udemy.com/course/react-js-redux-router-tailwind-css/"
-                >Udemy</a
+                ><span>Udemy</span></a
               >
-              > 2025
+              2025
             </li>
             <li class="education-item">
               Fundamental JavaScript,
               <a
                 href="https://www.udemy.com/course/fundamental-javascript/?couponCode=KEEPLEARNING"
-                >Udemy</a
+                ><span>Udemy</span></a
               >
               2025
             </li>
@@ -138,8 +145,8 @@
         <section class="section" id="languages">
           <h2 class="section-title">Languages</h2>
           <ul class="lang-list">
-            <li class="lang-item">Russian - native</li>
-            <li class="lang-item">English - B1</li>
+            <li class="lang-item"><span>Russian</span> - native</li>
+            <li class="lang-item"><span>English</span> - B1</li>
           </ul>
           <img src="./assets/img/english.jpg" alt="EF SET test result" />
         </section>
@@ -147,9 +154,8 @@
     </main>
     <footer>
       <div class="container">
-        <p></p><a src="https://github.com/anariel01">Anna Sergeeva,</a>
-        2025</p>
-        <a href="https://rs.school/courses/javascript-ru"
+        <a src="https://github.com/anariel01">Anna Sergeeva, 2025</a>
+        <a href="https://rs.school/courses/javascript-preschool-ru"
           ><img class="icon" src="./assets/img/favicon.ico"
         /></a>
       </div>
