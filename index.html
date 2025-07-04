@@ -35,10 +35,15 @@
     </header>
     <main>
       <div class="container main-container">
-        <img class="photo" src="./assets/img/user.jpg" alt="My photo" />
+        <section class="section" id="photo">
+          <div class="photo">
+            <img src="./assets/img/user.jpg" alt="My photo" />
+          </div>
+        </section>
         <section class="section" id="profile">
           <h1 class="section-title">Anna Sergeeva</h1>
-          <p class="">Junior Frontend Developer</p>
+          <p class="p" id="profile">Junior Frontend Developer</p>
+          <p>Almaty, Kazakhstan</p>
         </section>
 
         <section class="section" id="contacts">
@@ -148,16 +153,22 @@
             <li class="lang-item"><span>Russian</span> - native</li>
             <li class="lang-item"><span>English</span> - B1</li>
           </ul>
-          <img src="./assets/img/english.jpg" alt="EF SET test result" />
+          <img
+            class="english"
+            src="./assets/img/english.jpg"
+            alt="EF SET test result"
+          />
         </section>
       </div>
     </main>
     <footer>
-      <div class="container">
-        <a src="https://github.com/anariel01">Anna Sergeeva, 2025</a>
-        <a href="https://rs.school/courses/javascript-preschool-ru"
-          ><img class="icon" src="./assets/img/favicon.ico"
-        /></a>
+      <div class="container footer-container">
+        <a href="https://rs.school/courses/javascript-preschool-ru">
+          <img class="icon" src="./assets/img/favicon.ico" />
+        </a>
+        <a class="footer-link" href="https://github.com/anariel01"
+          >Anna Sergeeva, 2025</a
+        >
       </div>
     </footer>
   </body>
