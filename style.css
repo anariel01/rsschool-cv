@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
 }
-
 body {
   font-family: "Inter", sans-serif;
   font-size: 20px;
@@ -35,14 +34,12 @@ h2 {
 ul {
   margin-left: 25px;
 }
-
 li:not(.nav-item) {
   margin-left: 12px;
 }
 li:not(:last-child):not(.nav-item) {
   margin-bottom: 8px;
 }
-
 a,
 a:visited,
 a:hover,
@@ -54,7 +51,6 @@ a:active {
 a:hover {
   color: darkgray;
 }
-
 pre {
   background: #cccccc;
   padding: 1em;
@@ -68,7 +64,6 @@ code {
 span {
   font-weight: 500;
 }
-
 .container {
   max-width: 1440px;
   margin: 0 auto;
