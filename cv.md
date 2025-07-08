@@ -46,7 +46,7 @@ function hello(name) {
 }
 ```
 
-## **Experience and projects**
+## **Projects**
 
 ### **Todo List**
 
@@ -64,7 +64,7 @@ function hello(name) {
 
 ---
 
-### **Weather-wiget**
+### **Weather-widget**
 
 #### Technologies and React concepts used: React, JSX, props, useState, component composition, conditional rendering, API.
 
