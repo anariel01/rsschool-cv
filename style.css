@@ -90,7 +90,7 @@ span {
 .section {
   position: relative;
 }
-.section:before {
+.section:not(#photo, #profile):before {
   content: "";
   position: absolute;
   top: -48px;
