@@ -65,16 +65,18 @@ span {
   font-weight: 500;
 }
 .container {
-  max-width: 1440px;
+  max-width: 1000px;
   margin: 0 auto;
 }
 .main-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  row-gap: 96px;
-  column-gap: 100px;
+  row-gap: 98px;
+  column-gap: 5%;
   margin-bottom: 48px;
   margin-top: 48px;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 .footer-container {
   display: flex;
@@ -99,7 +101,6 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  gap: 10px;
   margin: 10px;
   padding: 0;
   list-style: none;
@@ -125,7 +126,7 @@ span {
   height: 100%;
 }
 .english {
-  width: 475px;
+  width: 100%;
   margin-top: 32px;
   border-radius: 15%;
 }
@@ -146,4 +147,71 @@ span {
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+
+
+@media (max-width: 765px) {
+  body {
+      font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  }
+h1 {
+  font-size: 36px;
+  line-height: 46px;
+}
+h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+.nav-list {
+
+  justify-content: space-between;
+}
+}
+
+@media (max-width: 625px) {
+  body {
+      font-size: 14px;
+  line-height: 24px;
+  font-weight: 300;
+  }
+h1 {
+  font-size: 32px;
+  line-height: 42px;
+}
+h2 {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+  .main-container {
+    margin-bottom: 30px;
+  margin-top: 30px;
+  display: block;
+
+}
+.section {
+  margin-bottom: 30px;
+}
+
+.section:not(#photo, #profile):before {
+  top: -15px;
+
+}
+.english {
+display: none;
+}
+.photo {
+  height: 150px;
+  width: 150px;
+  margin-left: 10px;
+  margin-bottom: 30px;
+}
+
+.nav-list {
+gap: 10px;
+ justify-content: space-around;
+  margin: 0;
+}
 }
