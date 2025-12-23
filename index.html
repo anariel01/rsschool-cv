@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="icon" href="./assets/img/favicon.ico" />
+  <link href="https://unpkg.com/prismjs/themes/prism.css" rel="stylesheet" />
+  <script src="https://unpkg.com/prismjs/prism.js"></script>
+  <title>CV</title>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#contacts">Contacts</a></li>
+          <li class="nav-item"><a href="#about">About me</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item">
+            <a href="#education">Education and courses</a>
+          </li>
+          <li class="nav-item"><a href="#languages">Languages</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <div class="container main-container">
+      <div class="photo">
+        <img src="./assets/img/user.jpg" alt="My photo" />
+      </div>
+
+      <section class="section" id="profile">
+        <h1 class="section-title">Anna Sergeeva</h1>
+        <p class="p" id="profile-description">Junior Frontend Developer</p>
+        <p>Almaty, Kazakhstan</p>
+      </section>
+
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-item">Phone: +7(705) 389-88-81 (kz), <br /> +7(908) 646-85-45 (ru)</li>
+          <li class="contacts-item">E-mail: annasergeeva29@ya.ru</li>
+          <li class="contacts-item">
+            Telegram: <a href="https://t.me/anariel01">@anariel01</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="about">
+        <h2 class="section-title">About me</h2>
+        <p>
+          I am an aspiring frontend developer with a passion for creating
+          user-friendly and beautiful user interfaces. I'm learning on my own,
+          constantly improving my skills and taking different courses to
+          master this profession. At the moment I already have basic knowledge
+          of HTML, CSS, JavaScript, Git and React. Now I want to practice on
+          real tasks and get experience of working in a team, it will help me
+          to grow faster as a frontend developer, build professional skills
+          and feel more confident in solving complex tasks.
+        </p>
+      </section>
+      <section class="section" id="skills">
+        <h2 class="section-title">Skills</h2>
+        <ul class="skills-list">
+          <li class="skills-item">HTML</li>
+          <li class="skills-item">CSS</li>
+          <li class="skills-item">JavaScript</li>
+          <li class="skills-item">React JS (Redux / Router)</li>
+          <li class="skills-item">Git, GitHub</li>
+          <li class="skills-item">Next.js</li>
+          <li class="skills-item">Node.js (Basic)</li>
+        </ul>
+      </section>
+      <!-- <section class="section" id="code">
+          <h2 class="section-title">Code example</h2>
+          <p>
+            "Hello, Name or World!" KATA from CODEWARS: Define a method hello
+            that returns "Hello, Name!" to a given name, or says Hello, World!
+            if name is not given (or passed as an empty String). Assuming that
+            name is a String and it checks for user typos to return a name with
+            a first capital letter (Xxxx).
+          </p>
+          <pre class="my-code"><code class="language-javascript">         
+ function hello(name) {
+   if (!name) return "Hello, World!"; 
+   const a = name.slice(0, 1).toUpperCase() + name.slice(1).toLowerCase(); 
+   return `Hello, ${a}!`; 
+  }</code></pre>
+        </section> -->
+      <section class="section" id="projects">
+        <h2 class="section-title">Projects</h2>
+        <ul class="projects-list">
+          <li class="projects-item">
+            <a href="https://task-list-seven-lemon.vercel.app/">Todo List</a>
+          </li>
+          <li class="projects-item">
+            <a href="https://calculator-umber-chi.vercel.app/">Calculator</a>
+          </li>
+          <li class="projects-item">
+            <a href="https://weather-wiget-one.vercel.app/">Weather-widget</a>
+          </li>
+          <li class="projects-item">
+            <a href="https://vite-project-plum-nine.vercel.app/">Store Page</a>
+          </li>
+          <li class="projects-item">
+            <a href="https://match-the-pictures.vercel.app/">"Match the pictures" mini-game</a>
+          </li>
+          <li class="projects-item">
+            <a href="#">Recipe book</a>
+          </li>
+          <li class="projects-item">
+            <a href="#">Netflix clone</a>
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education and courses</h2>
+        <ul class="education-list">
+          <li class="education-item">Irkutsk State University, 2023 (Specialization: Biology and Botany)</li>
+          <li class="education-item">
+            HTML,CSS and JavaScript theory and simulators,
+            <a href="https://htmlacademy.ru"><span>HTML Academy</span></a>
+            2025
+          </li>
+          <li class="education-item">
+            Complete course on React JS (Redux / Router / Tailwind CSS),
+            <a href="https://www.udemy.com/course/react-js-redux-router-tailwind-css/"><span>Udemy</span></a>
+            2025
+          </li>
+          <li class="education-item">
+            Fundamental JavaScript,
+            <a
+              href="https://www.udemy.com/course/fundamental-javascript/?couponCode=KEEPLEARNING"><span>Udemy</span></a>
+            2025
+          </li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+        <ul class="lang-list">
+          <li class="lang-item"><span>Russian</span> - native</li>
+          <li class="lang-item"><span>English</span> - B1</li>
+        </ul>
+        <img class="english" src="./assets/img/english.jpg" alt="EF SET test result" />
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer-container">
+      <a href="https://rs.school/courses/javascript-preschool-ru">
+        <img class="icon" src="./assets/img/favicon.ico" alt="Icon RS School" />
+      </a>
+      <a class="footer-link" href="https://github.com/anariel01">Anna Sergeeva, 2025</a>
+    </div>
+  </footer>
+</body>
+
+</html>
